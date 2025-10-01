@@ -247,19 +247,16 @@ st.markdown("---")  # Divider
 # --- Skills Section ---
 st.subheader("🛠 Skills")
 
-st.markdown("<div class='skill-section'><div class='skill-title'>💻 Programming Languages</div>", unsafe_allow_html=True)
+st.markdown("<div class='skill-section'><div class='skill-title'>Programming Languages</div>", unsafe_allow_html=True)
 st.markdown("""
 <div class="skill-container">
     <div class="skill-pill">Python</div>
     <div class="skill-pill">Java</div>
     <div class="skill-pill">C</div>
-    <div class="skill-pill">HTML</div>
-    <div class="skill-pill">CSS</div>
-    <div class="skill-pill">JavaScript</div>
 </div></div>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='skill-section'><div class='skill-title'>📚 Libraries</div>", unsafe_allow_html=True)
+st.markdown("<div class='skill-section'><div class='skill-title'>Libraries</div>", unsafe_allow_html=True)
 st.markdown("""
 <div class="skill-container">
     <div class="skill-pill">NumPy</div>
@@ -271,7 +268,25 @@ st.markdown("""
 </div></div>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='skill-section'><div class='skill-title'>🗄️ Database & OS</div>", unsafe_allow_html=True)
+st.markdown("<div class='skill-section'><div class='skill-title'>Frontend</div>", unsafe_allow_html=True)
+st.markdown("""
+<div class="skill-container">
+    <div class="skill-pill">streamlit</div>
+    <div class="skill-pill">HTML</div>
+    <div class="skill-pill">CSS</div>
+    <div class="skill-pill">Javascript</div>
+</div></div>
+""", unsafe_allow_html=True)
+
+st.markdown("<div class='skill-section'><div class='skill-title'>Backend</div>", unsafe_allow_html=True)
+st.markdown("""
+<div class="skill-container">
+    <div class="skill-pill">Flask</div>
+    <div class="skill-pill">Fastapi</div>
+</div></div>
+""", unsafe_allow_html=True)
+
+st.markdown("<div class='skill-section'><div class='skill-title'>Database & OS</div>", unsafe_allow_html=True)
 st.markdown("""
 <div class="skill-container">
     <div class="skill-pill">MySQL</div>
@@ -279,7 +294,7 @@ st.markdown("""
 </div></div>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='skill-section'><div class='skill-title'>🛠 Tools</div>", unsafe_allow_html=True)
+st.markdown("<div class='skill-section'><div class='skill-title'>Tools</div>", unsafe_allow_html=True)
 st.markdown("""
 <div class="skill-container">
     <div class="skill-pill">Google Colab</div>
@@ -290,7 +305,7 @@ st.markdown("""
 </div></div>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='skill-section'><div class='skill-title'>🤝 Soft Skills</div>", unsafe_allow_html=True)
+st.markdown("<div class='skill-section'><div class='skill-title'>Soft Skills</div>", unsafe_allow_html=True)
 st.markdown("""
 <div class="skill-container">
     <div class="skill-pill">Problem Solving</div>
